@@ -1,1 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
 
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-image {
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+    border-radius: 3vw;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+h5 {
+    opacity: 0.4;
+}
