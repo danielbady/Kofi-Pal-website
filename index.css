@@ -6,13 +6,6 @@ html, body {
     text-align: center;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .app-image {
     width: 100%;
     max-width: 300px;
@@ -28,4 +21,35 @@ a {
 
 h5 {
     opacity: 0.4;
+}
+
+.websites-policies {
+    width: fit-content;
+    margin: auto;
+    padding: 1em;
+}
+
+nav {
+    width: fit-content;
+    position: fixed;
+    right: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    min-width: 300px;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
 }
